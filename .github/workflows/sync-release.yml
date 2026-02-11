@@ -3,6 +3,9 @@ name: Sync Release to Gitee
 on:
   workflow_dispatch:
     
+permissions:
+  contents: write
+
 jobs:
   sync-release-to-gitee:
     runs-on: ubuntu-latest
